@@ -22,6 +22,7 @@ button{
   background-image: -ms-linear-gradient( 90deg, rgb(11,19,59) 0%,
    rgb(11,19,59) 0%, rgb(13,33,88) 0%, rgb(43,79,255) 0%, rgb(0,115,255) 100%);
   position: absolute;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
   top: 90vh;
   width: min(660px, 90vw);
   height: 90px;
