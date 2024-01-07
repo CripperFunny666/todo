@@ -134,7 +134,7 @@ button{
 .account .icon{
   width: 50px;
   height: 50px;
-  background-image: url(account.png);
+  background-image: url(user.svg);
   opacity: 1;
   border-radius: 50%;
   position: absolute;
