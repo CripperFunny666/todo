@@ -31,6 +31,7 @@ let index = `
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+<p style="color: white;">Глеб поел Gleb poel</p>
         <!-- <input type="color" class="changeBgColor">
         <input type="color" class="changeColor"> -->`;
 db.each(`SELECT Count(*) FROM lists`, (err, rows) => {
