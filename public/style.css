@@ -3,6 +3,8 @@ body{
   margin: 0px;
   justify-items: center;
   display: grid;
+  font-family: 'SF Pro Display', sans-serif;
+  font-size:40px;
 }
 *{
   box-sizing: border-box;
@@ -11,16 +13,7 @@ body{
 button{
   background-color: #00000000;
   border: 1px solid #00000000;
-}
-.root {
-  background: #0A0A0A;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  z-index: 1;
-  justify-items: center;
-  display: grid;
-}
+}  /*border: 1px solid #ffffff;*/  /*border: 1px solid #ffffff;*/
 .context-menu {
   background-image: -moz-linear-gradient( 90deg, rgb(11,19,59) 0%,
    rgb(11,19,59) 0%, rgb(13,33,88) 0%, rgb(43,79,255) 0%, rgb(0,115,255) 100%);
@@ -29,13 +22,14 @@ button{
   background-image: -ms-linear-gradient( 90deg, rgb(11,19,59) 0%,
    rgb(11,19,59) 0%, rgb(13,33,88) 0%, rgb(43,79,255) 0%, rgb(0,115,255) 100%);
   position: absolute;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
   top: 90vh;
   width: min(660px, 90vw);
   height: 90px;
   border-radius: 50px;
   z-index: 2;
 }
-.line-1, .line-2, .line-3 {
+/*.line-1, .line-2, .line-3 { глебик бебрик
   border-width: 3.15px;
   border-color: rgb(255, 255, 255);
   border-style: solid;
@@ -91,7 +85,7 @@ button{
   position: absolute;
   border: 2px solid rgba(255,255,255,0.0);
 /*  box-shadow: 0 0 10px 10px #ff0000, inset 0 0 10px 10px #ff0000;*/
-/*  border: 2px solid #fbfbfb;*/
+/*  border: 2px solid #fbfbfb;
 }  
 .ellipse-1 .plus-rect-1{
   background-color: #0073ff;
@@ -134,12 +128,14 @@ button{
 .account .icon{
   width: 50px;
   height: 50px;
-  background-image: url(account.png);
+  background-image: url("user.png");
+  filter: invert(1);
+  background-size: 50px 50px;
   opacity: 1;
-  border-radius: 50%;
   position: absolute;
-  left: 4px;
+  left: 4.3px;
   top: 4px;
+  /*border: 1px solid #ffffff;
 }
 .account:hover{
   box-shadow: 0 0 10px 10px rgb(255, 255, 255, 0.24);
@@ -168,4 +164,4 @@ div .noteWrap{
   position: absolute;
   height: 90px;
   border-radius: 50px;
-}
+}*/
